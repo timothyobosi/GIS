@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "229244243929",
+    "project_id": "gis-app-d7080",
+    "storage_bucket": "gis-app-d7080.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229244243929:android:714bd57b41d07d490c13c8",
+        "android_client_info": {
+          "package_name": "com.example.gis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8HHOmWombYnozhwc2oXVmT4tpAbDaha8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
