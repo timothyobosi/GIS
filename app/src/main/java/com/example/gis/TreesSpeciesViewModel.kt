@@ -2,7 +2,7 @@ package com.example.gis
 
 import androidx.lifecycle.ViewModel
 
-class TreesViewModel : ViewModel() {
+class TreesSpeciesViewModel : ViewModel() {
 
     //function gets tree species based on region ans soil type
     fun getTreeSpecies(region: String, soilType:String):List<String>{
