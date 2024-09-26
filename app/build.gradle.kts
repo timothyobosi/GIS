@@ -77,6 +77,16 @@ dependencies {
     kapt("androidx.room:room-compiler:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
 
+    //firebase - database
+    implementation("com.google.firebase:firebase-database:21.0.0")
+
+    //retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    //lifecycle
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.6")
+
     //firebase
     implementation("com.google.firebase:firebase-auth:23.0.0")
     implementation("com.google.firebase:firebase-firestore:25.1.0")
