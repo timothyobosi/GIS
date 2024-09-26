@@ -15,11 +15,13 @@ class ClimateRepository {
         apiService = retrofit.create(ClimateAPiService::class.java)
 
 
-        // suspend function to fetch climate data from the API
-        suspend fun getClimateData(region: String) : ClimateDataResponse{
-            return apiService.getClimateData(region)
-        }
 
 
+
+    }
+
+    // suspend function to fetch climate data from the API
+    suspend fun getClimateData(region: String) : ClimateDataResponse{
+        return apiService.getClimateData(region)
     }
 }
